@@ -36,7 +36,6 @@ public:
                 readIndex[randIndex].isActive = true;   
                 readIndex[randIndex].index = readIndex[i].startIndex;
                 readIndex[randIndex].gain.setTargetValue(1.0f);
-
             }
 
             if (readIndex[i].isActive){
